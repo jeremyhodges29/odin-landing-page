@@ -1,0 +1,70 @@
+* {
+    font-family: "roboto", sans-serif;
+}
+
+.header,
+.title,
+.footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
+
+.quote-space {
+    background-color: #E5E7EB;
+}
+
+.signup-space {
+    background-color: #3882F6;
+}
+
+button {
+    background-color: #3882F6;
+    color: #E5E7EB;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.header-links,
+.subtext,
+.footer,
+.action,
+.signup-text {
+    font-size: 18px;
+}
+
+.title-main {
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.signup-button {
+    font-size: 18px;
+}
+
+.title-body {
+    font-size: 36px;
+    font-weight: 800;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.quote-from {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.action,
+.signup-text {
+    color: #F9FAF8;
+}
+
+.action {
+    font-weight: 700;
+}

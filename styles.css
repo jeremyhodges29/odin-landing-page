@@ -1,5 +1,11 @@
 * {
     font-family: "roboto", sans-serif;
+    border: 1px dashed red;
+}
+
+body,
+p {
+    margin: 0px;
 }
 
 .header,
@@ -11,20 +17,44 @@
 
 .quote-space {
     background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .signup-space {
     background-color: #3882F6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 50px;
+    border-radius: 5px;
+}
+
+.outer-signup-space {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 75px 0px;
 }
 
 button {
     background-color: #3882F6;
-    color: #E5E7EB;
+    color: #F9FAF8;
+    border-radius: 5px;
+    padding: 5px 20px;
+}
+
+.alt-button {
+    border: 1px solid #F9FAF8;
 }
 
 .logo {
     font-size: 24px;
     font-weight: 700;
+    justify-content: center;
+    align-items: center;
 }
 
 .header-links,
@@ -47,17 +77,21 @@ button {
 .title-body {
     font-size: 36px;
     font-weight: 800;
+    text-align: center;
+    padding: 30px 0px;
 }
 
 .quote {
     font-size: 36px;
     font-weight: 300;
     font-style: italic;
+    max-width: 700px;
 }
 
 .quote-from {
     font-size: 24px;
     font-weight: 700;
+    max-width: 500px;
 }
 
 .action,
@@ -67,4 +101,51 @@ button {
 
 .action {
     font-weight: 700;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0px;
+}
+
+.header-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.title {
+    display: flex;
+    padding: 75px 0px;
+    justify-content: center;
+}
+
+.title-left,
+.title-image {
+    width: 50%;
+}
+
+.title-image {
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0px;
+}
+
+.all-images {
+    display: flex;
+    padding-bottom: 75px;
+}
+
+.quote-space {
+    padding: 75px 0px;
 }
